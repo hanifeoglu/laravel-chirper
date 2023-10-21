@@ -1,34 +1,65 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 
-## About of Laravel Project
+# 🌟 Build Chirper with Inertia
 
-the Laravel Bootcamp! In this guide we will walk through building a modern Laravel application from scratch. To explore the framework, we'll build a microblogging platform called Chirper.
+## 🚀 Introduction
+This project is part of the Laravel Bootcamp! In this guide, we will create a modern Laravel application from scratch. We're diving into the creation of a microblogging platform known as "Chirper," exploring the various facets of the Laravel framework.
 
-#
+### Choose Your Own Adventure: JavaScript, Inertia, PHP, & Tailwind
+
+Laravel grants incredible flexibility, allowing the construction of your front-end with various technologies tailored to your needs. This tutorial offers several exciting pathways.
+
+#### JavaScript & Inertia
+
+If JavaScript is your choice, we've got you covered! We provide code samples for both Vue and React. We're integrating Inertia to tie everything together and employing Tailwind CSS for that sleek visual appeal!
+
+If you're pondering over options, we recommend Vue for its user-friendly nature and robust features. And remember, once you've navigated through the Bootcamp, you can revisit to experience the alternate stack!
+
+Ready for the thrill? Select your stack and embark on this coding voyage!
+
+```vue
+<template>
+  <Welcome>
+      Hey {{ friend }}, let's build Chirper with Vue!
+  </Welcome>
+</template>
+
+🔨 Installation
+
+Follow these steps to set up and launch your application:
+
+Clone the Project
+Execute this command in your terminal:
+sh
+Copy code
+git clone https://github.com/hanifeoglu/laravel-chirper.git
+Navigate to the Project Directory
+Change into the project directory on your system:
+sh
+Copy code
+cd laravel-chirper
+Install PHP Dependencies
+Run the following to install the necessary PHP components:
+sh
+Copy code
+composer install
+Install JavaScript Dependencies & Compile Assets
+Address your JavaScript requirements with:
+sh
+Copy code
+npm install && npm run dev
+Ignite the Application
+Get your application up and running using:
+sh
+Copy code
+php artisan serve
+Access your application in your browser at http://localhost:8000.
 
 
+Happy coding, and here's to an amazing experience building Chirper! 🎉 Should you have questions or need assistance, feel free to reach out to salih@hanifeoglu.com. We're here for you!
 
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
 ## Contributing
 
